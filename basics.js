@@ -25,7 +25,7 @@ function stonex () {
 }
 
 stoney = () => {
-    return "Is this working...";
+    return console.log("Is this working...");
 }
 stonex();
 stoney();

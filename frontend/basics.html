@@ -8,6 +8,20 @@
     <title>Express</title>
 </head>
 <body>
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="express">Express and tools</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="stone">Stone API</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="basics">Basics</a>
+    </li>
+</ul>
 <div class="jumbotron">
     <div align="center">
         <h3 class="display-4">JavaScript basics</h3>
@@ -15,16 +29,24 @@
 
         <br>
         <p class="lead">Here's some javascript basics like variable declaration, functions, loops etc.</p>
-        <img src="code_snippets/basics.PNG" alt="" width="700" height="500">
+        <img src="code_snippets/basics.PNG" alt="" width="500" height="350">
 
         <p>
             As you can see, in JavaScript there are three different datatypes (var, let and const).
             <br>
-            var (variable) is global if it's outside of a function. It's like "public" in Java. 
+            var (variable) is global if it's outside of a function. It's like "public" in Java.
+            <br>
+            let (variable) only available within its scope. If you use that outside of the scope, it will return "undefined".
+            <br>
+            const (variable) must be initialized and it maintain constant values. const values cannot be updated or re-declared.
+        </p>
+        <br>
+        <p>
+            Arrow functions allow us to write shorter function syntax. That's why arrow functions are used in the creation of stone API.
         </p>
 
         <p class="lead">Result</p>
-        <img src="code_snippets/result.PNG" alt="result" width="500" height="250">
+        <img src="code_snippets/result2.PNG" alt="result" width="600" height="250">
 
 
     </div>
