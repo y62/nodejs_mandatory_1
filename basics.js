@@ -23,5 +23,11 @@ for (let i = 0; i < stones.length; i++) {
 function stonex () {
     console.log("My function is working...")
 }
+
+stoney = () => {
+    return "Is this working...";
+}
 stonex();
+stoney();
+
 
