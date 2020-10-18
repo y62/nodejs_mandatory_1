@@ -3,3 +3,11 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.timestwo {
+    font-size: 2em;
+}
+
+.colorful {
+    color: black;
+}
