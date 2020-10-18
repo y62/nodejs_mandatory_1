@@ -1,12 +1,12 @@
 new Chart(document.getElementById("myPieChart"), {
     type: 'pie',
     data: {
-        labels: ['Javascript basics', 'Node.Js tools', 'jQuery'],
+        labels: ['Javascript basics', 'Commands and tools', 'Express API'],
         datasets: [{
             label: 'My First dataset',
             backgroundColor: ["#fcff33", "#334cff", "#e11931"],
             borderColor: 'rgb(0, 0, 0)',
-            data: [3, 8, 5]
+            data: [7, 4, 5]
         }]
     },
 

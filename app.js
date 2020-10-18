@@ -52,6 +52,11 @@ app.delete("/stones/:id", (req, res) => {
     return res.send({ data: stones });
 });
 
+app.get("/stones/:id", (req, res) => {
+    const stone = stones.find(stone => stone.id === Number(req.params.id));
+    return res.send({ data: stone });
+});
+
 
 app.listen(port, () => {
     console.log("Server is running on port:", port)
